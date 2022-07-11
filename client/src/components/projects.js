@@ -1,9 +1,15 @@
+import React from 'react'
+import jsgame from '../images/game-start.PNG'
+import seeded from '../images/plants-overview.PNG'
+import brogress from '../images/calendar-view.png'
+import pokemon from '../images/pokemon-index.PNG'
+
 const Projects = () => {
   return (
     <div className='content' id='projects'>
       <h2>Projects</h2>
       <div className='projects-card'>
-        <img src='/images/calendar-view.png' alt='brogress-calendar' className='img-left' />
+        <img src={brogress} alt='brogress-calendar' className='img-left' />
         <div className='project-detail'>
           <h3>Brogress</h3>
           <h4>Individual Project | 1 Week</h4>
@@ -30,11 +36,11 @@ const Projects = () => {
             Bootstrap.
           </p>
         </div>
-        <img src='/images/plants-overview.PNG' alt='plant index overview' />
+        <img src={seeded} alt='plant index overview' />
       </div>
 
       <div className='projects-card'>
-        <img src='/images/pokemon-index.PNG' alt='pokedex overview' className='img-left' />
+        <img src={pokemon} alt='pokedex overview' className='img-left' />
         <div className='project-detail'>
           <h3>PokeDex</h3>
           <h4>2 Person Team | 2 Week</h4>
@@ -57,7 +63,7 @@ const Projects = () => {
             game in 1 week, with the aim of learning DOM and interval timings.
           </p>
         </div>
-        <img src='/images/game-start.PNG' alt='game start screen' />
+        <img src={jsgame} alt='game start screen' />
       </div>
     </div>
   )
