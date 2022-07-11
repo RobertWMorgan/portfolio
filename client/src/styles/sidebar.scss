@@ -1,0 +1,21 @@
+#sidebar{
+  height: 100%; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 5%;
+
+
+
+
+  button{
+    background-color: white;
+    border: 0;
+  }
+}

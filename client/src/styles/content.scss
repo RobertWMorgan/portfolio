@@ -1,0 +1,43 @@
+.content{
+  padding-top:5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2{
+    margin-bottom: 5%;
+  }
+}
+
+
+#experience{
+  margin-bottom: 10%;
+}
+
+.projects-card{
+  display: flex;
+  align-items: center;
+  img{
+    width:50%;
+    margin: 5%;
+  }
+
+  .img-left{
+    margin-left: 0;
+  }
+}
+
+.experience-card{
+  margin-bottom: 5%;
+}
+
+#about{
+  padding-top: 20%;
+  margin-bottom: 20%;
+}
+
+#interests{
+  padding-bottom: 5%;
+}

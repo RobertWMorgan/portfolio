@@ -1,0 +1,39 @@
+@import './navbar.scss';
+@import './sidebar.scss';
+@import './content.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.site-wrapper{
+  background-color: #0a192f;
+}
+
+p{
+  color: rgb(158, 163, 214);
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+h3{  
+  color: white;
+}
+
+h4{
+  color: white;
+}
+
+h5{
+  color: white;
+}
+
+ul{
+  color: white;
+}
