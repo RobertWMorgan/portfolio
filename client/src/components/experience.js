@@ -5,7 +5,8 @@ const Experience = () => {
       <h2>Experience</h2>
       <div className='experience-card'>
         <h3>Software Engineering Immersive</h3>
-        <h4>General Assemebly</h4>
+        <h4>General Assembly</h4>
+        <h4>Mar 2022 - Jun 2022</h4>
         <p>
           A 13 week Full-Stack course covering all the fundamentals of both Back-end and Front-end development. This was done through daily standups, traditional lectures and 4 main projects.
         </p>
@@ -15,6 +16,7 @@ const Experience = () => {
       <div className='experience-card'>
         <h3>Junior Marketing Officer</h3>
         <h4>The Invicta Group</h4>
+        <h4>Oct 2019 - Mar 2022</h4>
         <p>
           My main goal in this role was to improve SEO for the multiple websites and migrate them to a new CMS.
         </p>

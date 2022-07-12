@@ -9,13 +9,40 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  width: 5%;
-
-
-
+  width: 4%;
 
   button{
-    background-color: white;
+    background-color: #0a192f;
     border: 0;
+    width: 80%;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:auto;
+    margin-bottom: 5%;
+  }
+
+  #github{
+    background-image: url('../images/github_white.png');
+  }
+  #github:hover{
+    background-image: url('../images/github_blue.png');
+  }
+
+  #linkedin{
+    background-image: url('../images/linkedin_white.png');
+    margin-bottom: 30%;
+  }
+
+  #linkedin:hover{
+    background-image: url('../images/linkedin_blue.png');
+    margin-bottom: 30%;
+  }
+
+  #mail{
+    background-image: url('../images/mail_white.png');
+  }
+  #mail:hover{
+    background-image: url('../images/mail_blue.png');
   }
 }

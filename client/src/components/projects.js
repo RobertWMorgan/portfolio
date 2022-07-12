@@ -12,7 +12,7 @@ const Projects = () => {
         <img src={brogress} alt='brogress-calendar' className='img-left' />
         <div className='project-detail'>
           <h3>Brogress</h3>
-          <h4>Individual Project | 1 Week</h4>
+          <h4>Individual Project | 10 Days</h4>
           <h5>React | SASS | Django | PostgreSQL</h5>
           <p>
             10 day solo project with the aim of making a full-stack CRUD app from
@@ -26,11 +26,11 @@ const Projects = () => {
       <div className='projects-card'>
         <div className='project-detail'>
           <h3>Seeded</h3>
-          <h4>3 Person Team | 1 Week</h4>
+          <h4>3 Person Team | 10 Days</h4>
           <h5>React | SASS | Express | MongoDB</h5>
           <p>
             10 day project in a 3 person team to create an index website of our
-            favorite house plants.Back-end: Mainly focused on creating the user
+            favorite house plants. Back-end: Mainly focused on creating the user
             model, routing and reverse relationships. Front-end: Handled the
             favorites function, profile page and search/navbar using React and
             Bootstrap.
@@ -43,7 +43,7 @@ const Projects = () => {
         <img src={pokemon} alt='pokedex overview' className='img-left' />
         <div className='project-detail'>
           <h3>PokeDex</h3>
-          <h4>2 Person Team | 2 Week</h4>
+          <h4>2 Person Team | 2 Days</h4>
           <h5>React | SASS</h5>
           <p>
             2 day pair project that used an external API to display all existing
@@ -56,7 +56,7 @@ const Projects = () => {
       <div className='projects-card'>
         <div className='project-detail'>
           <h3>Bug CATastrophe</h3>
-          <h4>Individual Project | 1 Week</h4>
+          <h4>Solo Project | 1 Week</h4>
           <h5>HTML | CSS | JS</h5>
           <p>
             Solo project to develop a different version of the classic Space Invaders
